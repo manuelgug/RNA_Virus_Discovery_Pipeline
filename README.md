@@ -2,15 +2,18 @@
 
 This Bash script outlines a comprehensive bioinformatics pipeline I built during my postdoc at Universitat Autònoma de Barcelona for the discovery of RNA viruses from raw sequencing data. The pipeline includes several key steps such as read cleaning, interleaving, dereplication, decontamination, assembly, viral sequence identification, verification, and annotation.
 
+![viral_pipe](https://github.com/manuelgug/RNA_Virus_Discovery_Pipeline/blob/main/img/viral_pipe.png)
+
 ## Usage
 
-In my case, I created a conda environemnt first with all of the components (left links to all of them).
+For my purposes, I created many conda environemnts for all of the components (see commnets in main script). This depends on the user's preferences. However, all must be previously installed regardless.
 
-To run the entire pipeline, execute the following command (I provide the separate scripts as well):
+To run the entire pipeline, execute the following command:
 
 ```bash
 bash -i -v VIRUS_DISCOVERY_PIPELINE.sh
 ```
+Added the separate scripts as well for debugging.
 
 ## Pipeline Steps
 
