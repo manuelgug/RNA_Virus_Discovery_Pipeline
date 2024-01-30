@@ -9,7 +9,7 @@ In my case, I created a conda environemnt first with all of the components (left
 To run the entire pipeline, execute the following command (I provide the separate scripts as well):
 
 ```bash
-bash -i -v pipe_.sh
+bash -i -v VIRUS_DISCOVERY_PIPELINE.sh
 ```
 
 ## Pipeline Steps
