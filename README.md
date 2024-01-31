@@ -84,6 +84,7 @@ Added the separate scripts as well for debugging.
 ## Note
 - Make sure to adjust file paths, database locations, and parameters as needed.
 - For prokka, make your own viral proteins db
+- Make your own contaminants db. For my case, I used bat along human and bacteria sequences given that I worked with bat nasopharyngeal samples.
 - Some steps are commented out and need to be corrected based on your specific requirements.
 
 Feel free to customize and enhance the pipeline according to your specific needs.
